@@ -12,7 +12,7 @@ oe-pkgdata-util find-path /usr/bin/hqxhub_streamer
 ** How to List the files that are installed by a package
 
 #+begin_src bash
-
+oe-pkgdata-util list-pkg-files hqxhub-video-streamer
 #+end_src
 
 
