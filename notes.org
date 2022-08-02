@@ -1,0 +1,35 @@
+
+
+* General notes about Yocto
+
+
+** Quickly finding which layer produces a binary 
+#+begin_src bash
+oe-pkgdata-util find-path /usr/bin/hqxhub_streamer
+#+end_src
+
+
+** How to List the files that are installed by a package
+
+#+begin_src bash
+
+#+end_src
+
+
+** Build history and list of packages
+
+1. Edit .../build/conf/local.conf and add:
+    #+begin_src bash
+    INHERIT += "buildhistory"
+    BUILDHISTORY_COMMIT = "1"
+    #+end_src
+2. rerun bitbake
+3. It'll create the buildhistory directory in ${TOPDIR}, which points to your build directory. 
+4. Run buildhistory-diff
+
+** 
+
+
+* Creating layers
+
+
