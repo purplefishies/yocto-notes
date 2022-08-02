@@ -6,7 +6,7 @@
 :END:
 
 
-** Quickly finding which layer produces a binary 
+** Quickly finding which layer produces a binary                               :question:
 :PROPERTIES:
 :CAPTURED: <2022-08-02 12:59>
 :END:
@@ -15,7 +15,7 @@ oe-pkgdata-util find-path /usr/bin/hqxhub_streamer
 #+end_src
 
 
-** How to List the files that are installed by a package
+** How to List the files that are installed by a package                               :question:
 :PROPERTIES:
 :CAPTURED: <2022-08-02 12:59>
 :END:
@@ -25,7 +25,7 @@ oe-pkgdata-util list-pkg-files hqxhub-video-streamer
 #+end_src
 
 
-** Build history and list of packages
+** Build history and list of packages                               :question:
 
 1. Edit .../build/conf/local.conf and add:
     #+begin_src bash
