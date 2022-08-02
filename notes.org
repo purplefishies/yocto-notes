@@ -1,15 +1,24 @@
 
 
 * General notes about Yocto
+:PROPERTIES:
+:CAPTURED: <2022-08-02 12:59>
+:END:
 
 
 ** Quickly finding which layer produces a binary 
+:PROPERTIES:
+:CAPTURED: <2022-08-02 12:59>
+:END:
 #+begin_src bash
 oe-pkgdata-util find-path /usr/bin/hqxhub_streamer
 #+end_src
 
 
 ** How to List the files that are installed by a package
+:PROPERTIES:
+:CAPTURED: <2022-08-02 12:59>
+:END:
 
 #+begin_src bash
 oe-pkgdata-util list-pkg-files hqxhub-video-streamer
